@@ -61,7 +61,8 @@ li {
 /* Estilo da linha horizontal em seções específicas */
 #Sobre hr,
 #Formacao hr,
-#Projetos hr {
+#Projetos hr,
+#Contato hr {
     height: 5px;
     background-color: #254771;
 }
@@ -117,6 +118,40 @@ li {
     background-color: #f5f5f5;
     padding: 20px;
     font-size: 24px;
+}
+
+/* Estilo dos campos de formulário */
+.formulario input, textarea {
+    display: block;
+    margin-top: 5px;
+    width: 25%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: 1px solid #6d7e92;
+    border-radius: 5px;
+    resize: none;
+}
+
+/* Estilo das etiquetas de formulário */
+.formulario label {
+    margin-top: 24px;
+    display: block;
+}
+
+/* Estilo do título do formulário */
+.formulario h4 {
+    margin-top: 24px;
+}
+
+/* Estilo do botão do formulário */
+.formulario button {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
 }
 
 /* Estilo do rodapé da página */

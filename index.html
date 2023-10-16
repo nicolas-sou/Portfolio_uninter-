@@ -12,18 +12,18 @@
             <img src="/imagens/perfil.jpeg" alt="Foto de perfil" class="perfil">
             <hr>
             <!-- Links da barra lateral com eventos onclick para mostrar seções -->
-            <a href="#" onclick="showSection('Sobre')">Sobre</a>
+            <a href="#" onclick="showSection('Sobre')">Sobre mim</a>
             <a href="#" onclick="showSection('Contato')">Contato</a>
             <a href="#" onclick="showSection('Formacao')">Formação Acadêmica</a>
             <a href="#" onclick="showSection('Projetos')">Projetos</a>
         </div>
     </aside>
     <section id="Sobre" class="content">
-        <h2>Nicolas Sousa de Jesus</h2>  <!-- Título da seção -->
+        <h2>Nicolas Sousa de Jesus</h2> <!-- Título da seção -->
         <hr>
-            <p>Tenho 19 anos, moro em São Paulo e sou apaixonado por tecnologia!! Gosto de aprender e me desafiar a novas coisas.</p>
+        <p>Tenho 19 anos, moro em São Paulo e sou apaixonado por tecnologia!! Gosto de aprender e me desafiar a novas coisas.</p>
         <h5>Resumo de qualificações</h5> <!-- Título da subseção -->
-            <p>Desenvolvedor Front-End em formação pela EBAC, Escola Britânica de Artes Criativas e Tecnologia, graduando em Análise e Desenvolvimento de Sistemas - UNINTER. Profissional com perfil empático e criativo. Possuo habilidades em HTML, CSS e Javascript.</p>
+        <p>Desenvolvedor Front-End em formação pela EBAC, Escola Britânica de Artes Criativas e Tecnologia, graduando em Análise e Desenvolvimento de Sistemas - UNINTER. Profissional com perfil empático e criativo. Possuo habilidades em HTML, CSS e Javascript.</p>
         <ul>
             <li>
                 Experiência voluntária na construção de site para clínica de reabilitação, utilizando HTML, CSS e Javascript;
@@ -32,7 +32,7 @@
                 Habilidades em desenvolvimento de landing pages utilizando tecnologias front-end, criação de formulários utilizando Jquery.Mask e Bootstrap;
             </li>
             <li>
-                Conhecimentos de  Node.JS, SASS, LESS, Gulp;
+                Conhecimentos de Node.JS, SASS, LESS, Gulp;
             </li>
             <li>
                 Conhecimentos em automação de tarefas com Grunt;
@@ -41,27 +41,46 @@
                 Noções de requisições AJAX com fetch API.
             </li>
         </ul>
-        <h5>Competências</h5> <!-- Título da subseção --> 
+        <h5>Competências</h5> <!-- Título da subseção -->
         <p>HTML, CSS, Javascript, Bootstrap, Grunt, AJAX, REACTJS, VUEJ</p>
     </section>
     <!-- As outras seções (Contato, Formacao e Projetos) seguem uma estrutura similar, apenas com diferentes conteúdos. -->
     <section id="Contato" class="content">
         <!-- Conteúdo da seção Contato -->
-        <h2>Aqui estão alguns meio de contato</h2>  <!-- Título da seção -->
+        <h2>Aqui estão alguns meios de contato</h2> <!-- Título da seção -->
+        <hr>
+        <!-- Formulário de Contato -->
+        <form id="contact-form" class="formulario">
+            <h4>Formulário</h4>
+            <!-- Campo Nome -->
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Campo Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Campo Mensagem -->
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <!-- Botão de Envio -->
+            <button type="submit">Enviar</button>
+        </form>
         <div class="containerContato">
-            <img src="/imagens/git.png" alt="">
+            <img src="/imagens/git.png" alt="github">
             <a href="https://github.com/nicolas-sou" class="link">Git</a>
-            <img src="/imagens/linkedin.png" alt="">
-            <a href="https://www.linkedin.com/in/nicollas-dev-frontend/"class="link">Likedin</a>
-            <img src="/imagens/instragam.png" alt="">
-            <a href="https://www.instagram.com/nicollas_sou/"class="link">Instragam</a>
-            <img src="/imagens/gmail.png" alt="">
-            <a href="mailto:nicollassouza141@gmail.com">Email</a>
+            <img src="/imagens/linkedin.png" alt="linkedin">
+            <a href="https://www.linkedin.com/in/nicollas-dev-frontend/" class="link">LinkedIn</a>
+            <img src="/imagens/instragam.png" alt="instagram">
+            <a href="https://www.instagram.com/nicollas_sou/" class="link">Instagram</a>
+            <img src="/imagens/gmail.png" alt="gmail">
+            <a href="mailto:nicollassouza141@gmail.com" class="link">Email</a>
         </div>
     </section>
     <section id="Formacao" class="content">
         <!-- Conteúdo da seção Formação -->
-        <h2>Formação</h2>  <!-- Título da seção -->
+        <h2>Formação</h2> <!-- Título da seção -->
         <hr>
         <ul>
             <li>
@@ -83,15 +102,15 @@
     </section>
     <section id="Projetos" class="content">
         <!-- Conteúdo da seção Projetos -->
-        <h2>Projetos</h2>  <!-- Título da seção -->
+        <h2>Projetos</h2> <!-- Título da seção -->
         <hr>
         <a href="https://exercicio-plugins-jquery-vert.vercel.app/#Sobre" class="linkProjetos">Site de carros</a>
         <a href="https://github.com/nicolas-sou/site_gamesshop" class="linkProjetos">Projeto Game shop</a>
         <a href="https://github.com/nicolas-sou/clone_disneyplus" class="linkProjetos">Clone disneyplus</a>
-        <a href="https://github.com/nicolas-sou/site_filme" class="linkProjetos">Projeto site de filme</a>
-        <a href="https://github.com/nicolas-sou/Site-restaurante" class="linkProjetos">Projeto site restaurante</a>
-        <a href="https://github.com/nicolas-sou/landing_page_aniversario" class="linkProjetos">Landing page aniversario</a>
-        <a href="https://github.com/nicolas-sou/exercicio_grunt" class="linkProjetos">Sorteador</a>
+        <a href="https://github.com/nicolas-sou/site_filme" class "linkProjetos">Projeto site de filme</a>
+        <a href="https://github.com/nicolas-sou/Site-restaurante" class "linkProjetos">Projeto site restaurante</a>
+        <a href="https://github.com/nicolas-sou/landing_page_aniversario" class "linkProjetos">Landing page aniversario</a>
+        <a href="https://github.com/nicolas-sou/exercicio_grunt" class "linkProjetos">Sorteador</a>
     </section>
     <footer>
         <span>&copy; Nicolas Sousa de Jesus - Todos os direitos reservados - 2023</span>
